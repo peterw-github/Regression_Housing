@@ -11,11 +11,11 @@ This is a project, whereby I attempted to **predict housing prices**, based off 
 
 **Quick Walkthrough:**
 
-Once the data was cleaned, and explored, modelling was performed, initially starting off with standard Multivariable Linear Regression. The model seemed fairly decent, but unfortunately there were about 3-6 extreme outliers (depending on what data ends up in the training set, from SKlearns train_test_split function), that plagued the model. 
+Once the data was cleaned, and explored, modelling was performed, initially starting off with standard Multivariable Linear Regression. The model seemed fairly decent, but unfortunately there were 2 extreme outliers (the amount varies depending on what data ends up in the training set, from SKlearns train_test_split function), that plagued the model. 
 
 I suspected it was due to multi-collinearity between the categorical features (them being highly linearly correlated either to each other, or to the rest of the non-target features in the dataset), and thus employed Ridge Regression. I decided on Ridge Regression, as it was designed to deal with datasets that have a potentially large number of features, that are highly linearly correlated to each other, the exact problem I thought standard linear regression was encountering.
 
-Ridge regression worked out very nicely, solving the extreme outlier problem, and performing overall decently well IMO (for a basic model, this project didn't involve any  random forests, or any other model ensembles). 
+Ridge regression worked out nicely, solving the extreme outlier problem, and performing overall decently well IMO.
 
 The **results of the Ridge Regression model** is here:
 
@@ -27,9 +27,12 @@ The **results of the Ridge Regression model** is here:
 
 The Ridge model **predicted the sale price of 292 different homes, and on average, was off by about $13,830, according to Mean Absolute Error (MAE), or $22,353 if using Remote Mean Squared Error (RMSE), which is more sensitive to outliers.**
 
-This does seem like a fair bit of money honestly, 14 thousand dollars and 23 thousand dollars respectively, but proportionally speaking, the median sale price amongst all 1460 houses in the dataset, was $163,000. So **MAE / RMSE are 9% and 14% of the size of the median**, which isn't too bad IMO, especially for a fairly basic ML model, a variant of Linear Regression. 
+This does seem like a fair bit of money honestly, 14 thousand dollars and 23 thousand dollars respectively, but proportionally speaking, the median sale price amongst all 1460 houses in the dataset, was $163,000. So **MAE / RMSE are 9% and 14% of the size of the median**, which isn't too bad IMO, for a variant of Linear Regression, but there is certainly room for improvement. 
 
-But for improvements, I would primarily try both: testing out other models, (perhaps model ensembles? like a random forest), and eliminating/reducing the multi-collinearity that is still present amongst the categorical features, which is causing outlier issues.
+In order to achieve those improvements, I would first both: 
+
+1. Eliminating/reducing the multi-collinearity that is still present amongst the categorical features, which is causing outlier issues.
+2. Testing out other models (such as a decision tree or a model ensemble like a random forest, as these forms of regression models are highly different to linear regression, and don't use gradient descent as a means of improvement, local minima issues could be dcreasing the performance of our Linear / Ridge regression models at the moment)
 
 <br>
 <br>
