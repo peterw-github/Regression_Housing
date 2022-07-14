@@ -12,7 +12,7 @@ Ridge regression worked out very nicely, solving the extreme outlier problem, an
 
 The **results of the Ridge Regression model** is here:
 
-![Ridge Regression Performance](images/RidgeRidgePerformance.PNG)
+![Ridge Regression Performance](images/RidgePerformance.PNG)
 
 A thorough walkthrough of my analysis of the dataset, can be found in the actual Jupyter Notebook file,"HousePrices_Regression.ipynb", which includes descriptions of what I'm doing, as I do it.
 
