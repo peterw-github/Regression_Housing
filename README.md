@@ -11,7 +11,7 @@ This is a project, whereby I attempted to **predict housing prices**, based off 
 
 **Quick Walkthrough:**
 
-Once the data was cleaned, and explored, modelling was performed, initially starting off with standard Multivariable Linear Regression. The model seemed fairly decent, but unfortunately there were 2 extreme outliers (the amount varies depending on what data ends up in the training set, from SKlearns train_test_split function), that plagued the model. 
+Once the data was cleaned, and explored, modelling was performed, initially starting off with standard Multivariable Linear Regression. The model seemed fairly decent, but unfortunately there were 2 extreme outliers (the amount of outliers varies depending on which homes ends up in the training set, from SKlearns train_test_split function), that plagued the model. 
 
 I suspected this outlier issue, was due to multi-collinearity between the categorical features (them being highly linearly correlated either to each other, or to the rest of the non-target features in the dataset), and thus employed Ridge Regression. I decided on Ridge Regression, as it was designed to deal with datasets that have a potentially large number of features, that are highly linearly correlated to each other, the exact problem I thought standard linear regression was encountering.
 
