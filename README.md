@@ -1,11 +1,13 @@
 # Housing Regression Project
 
 <br>
+<br>
 
 Hello! 
 
 This is a project, whereby I attempted to **predict housing prices**, based off of a large number of features (*79 initially, through processing, cleaning, and encoding categorical variables, the number of features did change, ending up at 219, mainly due to one-hot encoding*). 1460 homes were in the dataset, split 80% into training, and 20% into testing.
 
+<br>
 <br>
 <br>
 
