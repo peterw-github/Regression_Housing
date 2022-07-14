@@ -29,10 +29,11 @@ The Ridge model **predicted the sale price of 292 different homes, and on averag
 
 This does seem like a fair bit of money honestly, 14 thousand dollars and 23 thousand dollars respectively, but proportionally speaking, the median sale price amongst all 1460 houses in the dataset, was $163,000. So **MAE / RMSE are 9% and 14% of the size of the median**, which isn't too bad IMO, for a variant of Linear Regression, but there is certainly room for improvement. 
 
-In order to achieve those improvements, I would first both: 
+In order to achieve those improvements, two immediate things come to mind:
 
 1. Eliminating/reducing the multi-collinearity that is still present amongst the categorical features, which is causing outlier issues.
-2. Testing out other models (such as a decision tree or a model ensemble like a random forest, as these forms of regression models are highly different to linear regression, and don't use gradient descent as a means of improvement, local minima issues could be dcreasing the performance of our Linear / Ridge regression models at the moment)
+
+3. Testing out other models (such as a decision tree or a model ensemble like a random forest, as these forms of regression models are highly different to linear regression, and don't use gradient descent as a means of improvement, local minima issues could be dcreasing the performance of our Linear / Ridge regression models at the moment)
 
 <br>
 <br>
