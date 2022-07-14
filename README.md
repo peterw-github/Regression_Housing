@@ -15,7 +15,7 @@ Once the data was cleaned, and explored, modelling was performed, initially star
 
 I suspected that the cause of this extreme outlier issue, was multi-collinearity between the categorical features (*multi-collinearity meaning that the features were highly linearly correlated either to each other, or to the rest of the non-target features in the dataset*), and thus employed Ridge Regression. The reason I picked Ridge Regression,  was because it was designed to deal with datasets that have a potentially large number of features, that are highly linearly correlated to each other, the exact problem I thought standard linear regression was encountering.
 
-It turns out, that Ridge regression ended up worked out nicely, solving the extreme outlier problem fairly well, and performing overall decently I would say. 
+It turns out, that Ridge regression ended up worked out nicely, solving the extreme outlier problem fairly well, and performing overall decently, I would say. 
 
 The **results of the Ridge Regression model,** is here:
 
