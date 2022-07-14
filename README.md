@@ -33,7 +33,7 @@ In order to achieve those improvements, two immediate things come to mind:
 
 1. Eliminating/reducing the multi-collinearity that is still present amongst the categorical features, which is causing outlier issues.
 
-3. Testing out other models (such as a decision tree or a model ensemble like a random forest, as these forms of regression models are highly different to linear regression, and don't use gradient descent as a means of improvement, local minima issues could be dcreasing the performance of our Linear / Ridge regression models at the moment)
+3. Testing out other models (such as a decision tree or a model ensemble like a random forest, as these forms of models are quite different to linear regression, and don't use gradient descent as a means of improvement, local minima issues could be decreasing the performance of our Linear / Ridge regression models at the moment)
 
 <br>
 <br>
