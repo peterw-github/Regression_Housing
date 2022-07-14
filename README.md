@@ -15,7 +15,7 @@ Once the data was cleaned, and explored, modelling was performed, initially star
 
 I suspected this outlier issue, was due to multi-collinearity between the categorical features (them being highly linearly correlated either to each other, or to the rest of the non-target features in the dataset), and thus employed Ridge Regression. I decided on Ridge Regression, as it was designed to deal with datasets that have a potentially large number of features, that are highly linearly correlated to each other, the exact problem I thought standard linear regression was encountering.
 
-Ridge regression worked out nicely, solving the extreme outlier problem, and performing overall decently well IMO.
+Ridge regression worked out nicely, solving the extreme outlier problem fairly well, and performing overall decently IMO.
 
 The **results of the Ridge Regression model** is here:
 
@@ -27,7 +27,7 @@ The **results of the Ridge Regression model** is here:
 
 The Ridge model **predicted the sale price of 292 different homes, and on average, was off by about $13,830, according to Mean Absolute Error (MAE), or $22,353 if using Remote Mean Squared Error (RMSE), which is more sensitive to outliers.**
 
-Predicting, and being off by 14 or 23 thousand dollars either way, on average, does seem like a lot of money, but proportionally speaking, the median sale price amongst all 1460 houses in the dataset, was $163,000. So **MAE / RMSE are 9% and 14% of the size of the median**, which isn't too bad IMO, for a variant of Linear Regression, but there is certainly room for improvement. 
+Predicting, and being off on average, by about 14 or 23 thousand dollars either way, does seem like a lot of money, but proportionally speaking, the median sale price amongst all 1460 houses in the dataset, was $163,000. So **MAE / RMSE are 9% and 14% of the size of the median**, which isn't too bad IMO, especially considering that the specific outlier issue is still affecting Ridge to an extent, but there is certainly a lot of room for improvement. 
 
 In order to achieve those improvements, two immediate things come to mind:
 
