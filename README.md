@@ -41,7 +41,7 @@ In order to achieve those improvements, two immediate things come to mind:
 
 A thorough walkthrough of my analysis of the dataset, can be found in the Jupyter Notebook file,"HousePrices_Regression.ipynb", which includes descriptions of what I'm doing, as I go through the analysis.
 
-This project was based off of the popular Ames housing price dataset, available on Kaggle, here:
+This project was based off of the popular Ames housing price dataset, available on Kaggle, here:  
 https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview
 
 *Note: data.csv is simply the dataset used, and data_desc.txt, just contains detailed descriptions, of each of the 81 features total, in the dataset.*
