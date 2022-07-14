@@ -27,7 +27,7 @@ The **results of the Ridge Regression model,** is here:
 
 The Ridge model **predicted the sale price of 292 different homes, and on average, was off by about $13,830, according to Mean Absolute Error (MAE), or $22,353 if using Remote Mean Squared Error (RMSE), which is more sensitive to outliers.**
 
-Predicting a houses price, and being off on average, by about 14 or 23 thousand dollars either way, does seem like a lot of money, but proportionally speaking, the median sale price amongst all 1460 homes in the dataset, was $163,000. So **MAE / RMSE are 9% and 14% the size of the median**, respectively, which isn't awful, especially considering that the multi-collinearity induced outliers are still affecting Ridge to an extent, but there is certainly a lot of room for improvement. 
+Predicting a houses price, and being off on average, by about 14 or 23 thousand dollars either way, does seem like a lot of money, but proportionally speaking, the median sale price amongst all 1460 homes in the dataset, was $163,000. So the **MAE / RMSE are 9% and 14% the size of the median**, respectively, which isn't awful, especially considering that the multi-collinearity induced outliers are still affecting Ridge to an extent, but there is certainly a lot of room for improvement. 
 
 In order to achieve those improvements, two immediate things come to mind:
 
