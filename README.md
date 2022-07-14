@@ -25,6 +25,8 @@ The **results of the Ridge Regression model** is here:
 
 <br>
 
+*Insert explanation here as to what the results are, like explain what the RMSE and MAE values are*
+
 A thorough walkthrough of my analysis of the dataset, can be found in the actual Jupyter Notebook file,"HousePrices_Regression.ipynb", which includes descriptions of what I'm doing, as I do it.
 
 This project was based off of the popular Ames housing price dataset, available on Kaggle, here:
