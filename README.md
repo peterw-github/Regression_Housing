@@ -31,11 +31,11 @@ The Ridge model **predicted the sale price of 292 different homes, and on averag
 
 Predicting a houses price, and being off on average, by about 14 or 23 thousand dollars either way, does seem like a lot of money, but proportionally speaking, the median sale price amongst all 1460 homes in the dataset, was $163,000. So the **MAE / RMSE are 9% and 14% the size of the median**, respectively, which isn't awful, considering outliers are still present, but there is certainly a lot of room for improvement. 
 
-In order to achieve those improvements, two immediate things come to mind:
+In order to achieve those **improvements**, two immediate things come to mind:
 
-1. Eliminating/reducing the multi-collinearity that is still present amongst the categorical features, which is the main remaining cause of outlier issues.
+1. **Eliminating/reducing the multi-collinearity that is still present amongst the categorical features**, which is the main remaining cause of outlier issues.
 
-2. Testing out other models, such as a decision tree or a model ensemble like a random forest. These two models are quite different to linear regression, and don't use gradient descent as a means of improvement, local minima issues could be decreasing the performance of our Linear/Ridge regression models, and a decision tree / random forest, would avoid this specific issue.
+2. **Testing out other models**, such as a **decision tree** or a model ensemble like a **random forest**. These two models are quite different to linear regression, and don't use gradient descent as a means of improvement, local minima issues could be decreasing the performance of our Linear/Ridge regression models, and a decision tree / random forest, would avoid this specific issue.
 
 Overall though, I am happy with how Ridge Regression, and the exploratory data analysis went, for a project that spanned a few days.
 
