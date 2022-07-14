@@ -25,7 +25,7 @@ The **results of the Ridge Regression model** is here:
 
 <br>
 
-Our Ridge model predicted the sale price of 292 different homes, and on average, was off by about $13,182, according to Mean Absolute Error (MAE), or $18,828 if using Remote Mean Squared Error (RMSE), which is more sensitive to outliers.
+The Ridge model **predicted the sale price of 292 different homes, and on average, was off by about $13,182, according to Mean Absolute Error (MAE), or $18,828 if using Remote Mean Squared Error (RMSE), which is more sensitive to outliers.**
 
 This does seem like a fair bit of money honestly, 13 thousand dollars and 18 thousand dollars, but proportionally speaking, the median sale price amongst all 1460 houses in the dataset, was $163,000. So MAE / RMSE are only 8% and 12% of the size of the median, which isn't too bad, especially for a fairly basic ML model, which is just a variant of Linear Regression, but for improvements, I'm sure some different model ensembles could achieve better accuracy.
 
@@ -33,7 +33,7 @@ This does seem like a fair bit of money honestly, 13 thousand dollars and 18 tho
 <br>
 <br>
 
-A thorough walkthrough of my analysis of the dataset, can be found in the actual Jupyter Notebook file,"HousePrices_Regression.ipynb", which includes descriptions of what I'm doing, as I go through the analysis.
+A thorough walkthrough of my analysis of the dataset, can be found in the Jupyter Notebook file,"HousePrices_Regression.ipynb", which includes descriptions of what I'm doing, as I go through the analysis.
 
 This project was based off of the popular Ames housing price dataset, available on Kaggle, here:
 https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview
