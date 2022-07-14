@@ -21,7 +21,7 @@ The **results of the Ridge Regression model** is here:
 
 <br>
 
-![Ridge Regression Performance](images/RidgePerformance.PNG)\
+[<img alt="Ridge Regression Performance" width="700" height=400 src="./images/RidgePerformance.PNG" />]()
 
 <br>
 
