@@ -9,7 +9,7 @@ This is a project, whereby I attempted to **predict housing prices**, based off 
 <br>
 <br>
 
-**Quick Walkthrough:**
+**Quick Walkthrough of the Project:**
 
 Once the data was cleaned, and explored, modelling was performed, initially starting off with standard Multivariable Linear Regression. The model seemed fairly decent, but unfortunately, there were 2 extreme outliers (*the amount of outliers varies depending on which homes end up in the training set, from SKlearns train_test_split function*), that plagued the model. 
 
