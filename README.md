@@ -38,7 +38,7 @@ A thorough walkthrough of my analysis of the dataset, can be found in the Jupyte
 This project was based off of the popular Ames housing price dataset, available on Kaggle, here:
 https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview
 
-*Note: data.csv is simply the dataset used, and data_desc.txt, just contains detailed descriptions, of each of the 81 features total, in the dataset*
+*Note: data.csv is simply the dataset used, and data_desc.txt, just contains detailed descriptions, of each of the 81 features total, in the dataset.*
 
 
 
