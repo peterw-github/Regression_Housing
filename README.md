@@ -55,8 +55,6 @@ https://github.com/peterw-github/Regression_Housing/blob/main/HousePrices_Regres
 This project was based off of the popular Ames housing price dataset, available on Kaggle, here:  
 https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview
 
-<br>
-
 *Note: data.csv is simply the dataset used, and data_desc.txt, just contains detailed descriptions, of each of the 81 features total, in the dataset.*
 
 
