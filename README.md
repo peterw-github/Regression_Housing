@@ -46,7 +46,7 @@ Overall though, I am happy with how Ridge Regression, and the exploratory data a
 
 
 ### Thorough Walkthrough
-A thorough walkthrough of my analysis of the dataset, can be found in the Jupyter Notebook file,"HousePrices_Regression.ipynb", here: 
+A thorough walkthrough of my analysis of the dataset, can be found in the Jupyter Notebook file,"HousePrices_Regression.ipynb", here: <br />
 https://github.com/peterw-github/Regression_Housing/blob/main/HousePrices_Regression.ipynb 
 
 <br>
