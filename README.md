@@ -44,7 +44,7 @@ Overall though, I am happy with how Ridge Regression, and the exploratory data a
 
 
 
-### Thorough Walkthrough
+## Thorough Walkthrough
 A thorough walkthrough of my analysis of the dataset, can be found in the Jupyter Notebook file,"HousePrices_Regression.ipynb", here: <br />
 https://github.com/peterw-github/Regression_Housing/blob/main/HousePrices_Regression.ipynb 
 
@@ -52,7 +52,7 @@ https://github.com/peterw-github/Regression_Housing/blob/main/HousePrices_Regres
 <br>
 <br>
 
-### Dataset Source
+## Dataset Source
 This project was based off of the popular Ames housing price dataset, available on Kaggle, here:  
 https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/overview
 
